@@ -1,7 +1,7 @@
 # AmiCalc
 
 ## About
-AmiCalc 1.3 is a Workbench/Intuition native scientific calculator that fits comfortably on any Kickstart 1.3 desktop. The repository ships with the full C source plus the compiled binary and icon so it can be copied directly to real hardware or an emulator. The goal is to provide a classic button-driven experience with menus for constants, view modes, and configuration without relying on external utilities.
+AmiCalc 1.3 is a Workbench/Intuition native scientific calculator built to bring the “big calculator” experience to any stock Kickstart 1.3 machine. The program recreates the tactile workflow of hardware calculators: button matrices render with Intuition primitives, menus expose constants and modes, and every keystroke updates a running expression so that results are transparent. The codebase serves two purposes—providing Amiga users with a lightweight yet capable calculator, and acting as an example of how to mix classic Intuition UI code with double-precision math on constrained hardware. This repository mirrors that intent by including both the full C sources and the Workbench icon/binary that can be dropped directly into a real or emulated setup.
 
 ## Key features
 - Compact Intuition UI (300x200 px) with dedicated clusters for scientific and numeric keys.
@@ -56,4 +56,4 @@ AmiCalc 1.3 is a Workbench/Intuition native scientific calculator that fits comf
 - `Makefile` – VBCC/NDK build rules and overridable variables (`TARGET`, `VBCC_ROOT`, `NDK`, `NDK_INC`).
 
 ## License
-No explicit license file is included. If you plan to redistribute or modify the code, coordinate with the original author or add the appropriate license file before publishing derived builds.
+This project is distributed under the [MIT License](LICENSE), enabling reuse, modification, and redistribution as long as attribution and copyright notices remain intact.
